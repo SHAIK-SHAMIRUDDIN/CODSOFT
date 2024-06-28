@@ -1,0 +1,54 @@
+@import url('https://fonts.googleleapis.com/css2?family=poopins:weight@300;400;500;600;700;800;900;&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'popins',sans-serif;
+}
+body{
+    background: #081b29;
+    color:#ededed;
+    align-items: center;
+    margin:200px 550px;
+    
+}
+
+.h1{
+    position:relative;
+    font-size:30px;
+    color: #081b29;
+    text-decoration:none;
+    font-weight:600;
+    background:#ededed;
+    border-radius:15px;
+     width:100%;
+
+}
+.h2{
+    position:relative;
+    font-size:25px;
+    color: #9fc908;
+    text-decoration:none;
+    font-weight:600;
+    width:100%;
+}
+.list{
+    position:relative;
+    font-size:25px;
+    color: #0ce193;
+    text-decoration:none;
+    font-weight:500;
+    padding:10px 40px;
+
+}
+.list .py:hover{
+    color:aqua;
+}
+.list .html:hover{
+    color:aqua;
+
+}
+.list .office:hover{
+    color:aqua;
+}
+
