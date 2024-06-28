@@ -1,0 +1,115 @@
+*{
+    margin:0;padding:0;
+    box-sizing: border-box;
+   
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(https://image.freepik.com/free-vector/business-background-with-blue-abstract-wave_105895-394.jpg);
+    background-position: bottom;
+    background-size: 100% 35%;
+    background-repeat:no-repeat;
+}
+nav{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    height: 70px;
+   
+   
+
+  
+}
+.logo{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2ox;
+    color:rgba(0, 132, 255, 0.947);
+    padding:0px 5px 5px;
+    
+}
+.features a{
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    padding: 10px 20px;
+    margin:5px;
+    border-radius: 30px 0px 30px 0px;
+    }
+    nav  a:hover{
+        color:rgb(34, 34, 32);
+        transition: .3s;
+        background-color: rgb(19, 226, 226);
+    
+    }
+    .container{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .left,.right{
+        flex-basis:50%;
+    }
+    .left h1{
+        font-size: 50;
+        margin-bottom: 20px;
+        padding:55px 1px;
+        color:rgb(224, 72, 2);
+        
+    }
+.left{
+    width: 450px;
+    padding-left: 70px;
+}
+.left p{
+    font-size: 20px;
+    margin-bottom:20px;
+    
+
+}
+button{
+    color:white;
+    background-color: rgba(0, 132, 255, 0.947);;
+    outline:none;
+    padding:15px;
+    border:none;
+    border-radius:0px 20px 0px 20px;
+    
+}
+button hower{
+    color:aquamarine;
+
+}
+.btn{
+    display: flex;
+    position: bottom;
+    padding: 10px;
+}
+
+.right{
+    width: 100%;
+    height:30%;
+}
+.media-icons *{
+    position:relative;
+    color:#060970dc;
+    font-size:50px;
+    transition:0.3s;
+    transition-property:background;
+    padding:100px 30px;
+}
+.media-icons a:not(:last-child){
+    margin-bottom:60px;
+
+}
+.media-icons a:hover{
+    
+    transform:scale(1.5);
+    color:#07b9d8a0;
+}
+.h1{
+    color:#07d0e7c4
+}
+
+    
